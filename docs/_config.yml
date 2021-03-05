@@ -56,11 +56,10 @@ defaults:
       search: true
       tooltip: true
 
-sidebars:
-  - home_sidebar
+sidebars: [home_sidebar]
+baseurl: /test_nbdev_2/
 
 plugins:
-  - jekyll-remote-theme
+    - jekyll-remote-theme
     
 remote_theme: fastai/nbdev-jekyll-theme
-baseurl: /test_nbev_2/
