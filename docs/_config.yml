@@ -57,10 +57,10 @@ defaults:
       tooltip: true
 
 sidebars:
-- home_sidebar
+  - home_sidebar
 
 plugins:
-    - jekyll-remote-theme
+  - jekyll-remote-theme
     
 remote_theme: fastai/nbdev-jekyll-theme
 baseurl: /test_nbev_2/
